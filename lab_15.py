@@ -2,9 +2,7 @@ import cv2
 
 
 def lab_15(filename):
-    face_cascade = cv2.CascadeClassifier(
-
-        "/home/ivanako/Desktop/openCV/venv/lib/python3.6/site-packages/cv2/data/haarcascade_frontalface_alt.xml")
+    face_cascade = cv2.CascadeClassifier("filename")
     video_capture = cv2.VideoCapture(filename)
 
     while True:

@@ -14,7 +14,7 @@ root.title("onenCV labs")
 
 
 def open_file():
-    return filedialog.askopenfilename(initialdir="/home/ivanako/Desktop/openCV", title="Select file",
+    return filedialog.askopenfilename(initialdir="initialdir", title="Select file",
                                       filetypes=(("png files", "*.png"), ("all files", "*.*")))
 
 
